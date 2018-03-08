@@ -19,6 +19,3 @@ Route::get('main',function(){
     return view('main');
 });
 
-Route::get('phpinfo',function(){
-    phpinfo();
-});
